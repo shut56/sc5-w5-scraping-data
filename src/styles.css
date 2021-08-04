@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: indigo;
+  text-align: center;
+}
+
+.first-block {
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.my-block-element {
+  font-size: 14pt;
+}
+
+img {
+  height: 200px;
+  border-radius: 20px;
+  margin: 0 4px;
+}
+
+div.my-block-element#elem2 {
+  color: brown;
+}
+
+.indigo {
+  color: rgb(0,0,255);
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rose {
+  color: red;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
